@@ -1,0 +1,3 @@
+David_Barrazas program
+Running game from /mnt/c/Users/ipeka/git/guessingGame/David_Barraza_labb
+compiling...
