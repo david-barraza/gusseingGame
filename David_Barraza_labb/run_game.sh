@@ -1,13 +1,14 @@
 #!/bin/bash
 
-
-David_Barrazas program
-Running game from /mnt/c/Users/ipeka/git/guessingGame/David_Barraza_labb
-echo "Compiling..."
+echo $USER program"
+mkdir David_Barraza_labb
+cp -R "*.java" "/David_Barraza_labb"
+cd David_Barraza_labb
+pwd
+echo "compiling"
 javac GuessingGame.java
-
 echo "Running Game..."
 java GuessingGame
 echo "Done!"
-echo "Removing class files..."
 rm "*.class"
+ls
