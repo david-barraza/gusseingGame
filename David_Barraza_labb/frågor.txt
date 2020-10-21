@@ -1,0 +1,13 @@
+* När använder man add respektive commit?
+Man använder säg först och främst av add för att få sin ändrade fil i en så kallad staging area.
+När man har gjort det ska man göra en commit för att skapa en ny revision av det som ligger i staging arean.
+
+* Vad är pull repsektive push?
+Pull gör så att man gör både fetch och merge på ett kommando samt laddar ner nya versioner.
+Pusha gör man för att skicka iväg sin/a ändrade och commitade filer till ens repository.
+
+*När använder man log respektive status?
+Log: Används vi när man vill se vilken commit som vi gjorde senast. Senaste commiten visas överst på listan.
+     Man får också med själva commitsträngen om man behöver vända tillbaka i utvecklingen.
+Status: Används när man vill se vad som har hänt och vad som är på gång. Man kan se vilken branch man är i och
+        om det finns något att commita. Filer som ännu inte är addade eller liknande.    
